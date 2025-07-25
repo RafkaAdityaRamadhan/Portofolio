@@ -1,0 +1,41 @@
+        body {
+            background-color: rgb(29, 79, 112);
+            padding: 0;
+            margin: 0;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgb(123, 156, 156);
+            border-radius: 20px;
+        }
+        ul {
+            display: flex;
+            gap: 2rem;
+        }
+        ul li {
+            list-style: none;
+        }
+        ul li a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        .nav-logo{
+            margin-left: 1rem;
+        }
+
+        .nav-menu{
+            margin-right: 1rem;
+        }
+
+        .content{
+            color : white;
+            font-size: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 10vh;
+        }
